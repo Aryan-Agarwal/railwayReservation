@@ -2,18 +2,6 @@
 <head>
 
 <?php
-
-require("libs/config.php");
-$page = easy_decrypt($_GET["id"]);
-$pageDetails = getPageDetailsByName($page);
-include("header.php");
-?>
-<div>
-<img src='train.jpg' height=600 width=800 align="left">
-</div>
-
-
-
 <?php
 ## connect mysql server
 	$mysqli = new mysqli('localhost', 'root', '', 'simple-website');

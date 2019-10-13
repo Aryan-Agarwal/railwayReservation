@@ -34,8 +34,6 @@ th {
     <body style="font-size:20px;">
     <br><br>
 <?php
-require("libs/config.php");
-$pageDetails = getPageDetailsByName($currentPage);
 ?>
 <?php
 

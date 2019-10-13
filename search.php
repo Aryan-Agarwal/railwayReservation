@@ -34,17 +34,11 @@ th {
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
-        <div class="container jumbotron">
-            <header>
-                <h1>Train Availabilty</h1>
-				            </header>
-            <section>				
-                <div id="container_demo" >
-                    <!-- hidden anchor to stop jump http://www.css3create.com/Astuce-Empecher-le-scroll-avec-l-utilisation-de-target#wrap4  -->
+        <div class="container jumbotron train">
+                <h2>Train Availabilty</h2>
 <?php
 require("libs/config.php");
 $pageDetails = getPageDetailsByName($currentPage);
-include("header.php");
 ?>
 <?php
     $link = mysqli_connect("localhost", "root", "", "simple-website");

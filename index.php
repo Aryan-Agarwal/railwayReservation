@@ -80,69 +80,7 @@
         	</div>
         </div>
         
-    </div>
-   
-   
-   <!--
-    <div id="works"  class=" clearfix grid"> 
-    <figure>
-        <img src="images/portfolio/2.jpg" height=334.8 width=600 alt="img01"/>
-        <figcaption>
-            <h2>View Availability</h2>
-            <br><p>
-            <a href="trains.php" title="1" data-gallery>View more</a></p>            
-        </figcaption>
-    </figure>
-     <figure>
-        <img src="images/portfolio/1.jpg" height=334.8 width=600  alt="img01"/>
-        <figcaption>
-            <h2>Reservation</h2>
-            <br><p>
-            <a href="reservations.php" title="1" data-gallery>View more</a></p>            
-        </figcaption>
-    </figure>
-     <figure>
-        <img src="images/portfolio/3.jpg" height=334.8 width=600  alt="img01"/>
-        <figcaption>
-            <h2>Cancellation</h2>
-            <br><p>
-            <a href="cancellation.php" title="1" data-gallery>View more</a></p>            
-        </figcaption>
-    </figure>
-          <figure>
-        <img align="middle" src="images/portfolio/5.jpg" height=334.8 width=600  alt="img01" >
-        <figcaption>
-            <h2>Special Offers</h2>
-            <br><p>
-            <a href="lucky.php" title="1" data-gallery>View more</a></p>            
-        </figcaption>
-    </figure>
-
-
-          <figure>
-        <img align="middle" src="images/portfolio/6.jpg" alt="img01" >
-        <figcaption>
-            <h2>Print Ticket</h2>
-            <br><p>
-            <a href="display.php" title="1" data-gallery>View more</a></p>            
-        </figcaption>
-    </figure>
-
-    <figure>
-        <img src="images/portfolio/22.png" height=334.8 width=600  alt="img01"/>
-        <figcaption>
-            <h2>New User Registration</h2>
-            <br><p>
-            <a href="log.html#toregister" title="1" data-gallery>View more</a></p>            
-        </figcaption>
-    </figure>
-
-     
-          
-</div>
--->          
-           
-
+    </div>    
 
 </body>
     

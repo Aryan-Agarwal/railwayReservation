@@ -1,4 +1,3 @@
-
 <?php
 ## connect mysql server
 	$mysqli = new mysqli('localhost', 'root', '', 'simple-website');
@@ -25,7 +24,7 @@
 			//echo "New Record has id ".$mysqli->insert_id;
 			echo "<script language=\"JavaScript\">\n";
 echo "alert('Registered Successfully');\n";
-echo "window.location='ola.php'";
+echo "window.location='index.php'";
 echo "</script>";
 		} else {
 			echo "<p>MySQL error no {$mysqli->errno} : {$mysqli->error}</p>";

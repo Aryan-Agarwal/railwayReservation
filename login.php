@@ -1,12 +1,5 @@
 <?php
 
-require("libs/config.php");
-$page = easy_decrypt($_GET["id"]);
-$pageDetails = getPageDetailsByName($page);
-include("header.php");
-?>
-<?php
-
 	require_once("libs/constants.php");
 	$mysqli = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 	# check connection
@@ -32,7 +25,7 @@ echo "</script>";
 	} else {
 		echo "<script language=\"JavaScript\">\n";
 echo "alert('Logged in Successfully');\n";
-echo "window.location='trains.php'";
+echo "window.location='index.php'";
 echo "</script>";
 	}
 
