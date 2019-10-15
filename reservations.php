@@ -8,14 +8,16 @@
         <link rel="stylesheet" href="bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <body>
-        <div class="container jumbotron">
-            <header>
-                <h1>Train Reservation</h1>
-				            </header>
-            <section>				
-                <div id="container_demo" >
+<?php
+        include("header.php");
+        ?>
+       <br><br>
+        <div class="container jumbotron train">
+                <h2>Train Reservation</h2>
+                <br>
 <div>
 <form action="reservation.php" method="GET">
 <div class="row">
@@ -58,3 +60,9 @@
 <input class="btn btn-success" type="submit" value="Reserve" />
 </form>
 </div>
+        </div>
+<?php
+        include("footer.php")
+        ?>
+    </body>
+</html>
