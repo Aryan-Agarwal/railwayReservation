@@ -1,5 +1,9 @@
 body{
     background-color: #122442;
+    background-image: url(main.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
 }
 
 .train p {

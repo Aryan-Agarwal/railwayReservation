@@ -23,8 +23,8 @@
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Book</a>
+      <li class="nav-item active">
+        <a class="nav-link" href="reservations.php">Book</a>
       </li>
     </ul>
   </div>
@@ -69,7 +69,7 @@
         	<div class="col-lg-4">
         		<div class="thumbnail">
         		<img src="images/portfolio/22.jpg">
-        		<h3><center><a href="log.html">Register/Login In</a></center></h3>
+        		<h3><center><a href="log.php">Register/Login In</a></center></h3>
         		</div>
         	</div>
         	<div class="col-lg-4">
@@ -82,6 +82,9 @@
         
     </div>    
 
+<?php
+    include("footer.php")
+    ?>
 </body>
     
 </html>
