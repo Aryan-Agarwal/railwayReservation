@@ -20,22 +20,22 @@
    <div class="jumbotron  train">
        <h2><?php echo "Available Stations"; ?> </h2>
        <hr>
-<p><?php echo "Chennai"; ?> </p>
-<p><?php echo "Bengaluru"; ?> </p>
-<p><?php echo "Kodaikanal"; ?> </p>
-<p><?php echo "Hyderabad"; ?> </p>
-<p><?php echo "Trichy"; ?> </p>
-<p><?php echo "Madurai"; ?> </p>
-<p><?php echo "Coimbatore"; ?> </p>
-<p><?php echo "Kanyakumari"; ?> </p>
-<p><?php echo "Bhubaneshwar"; ?> </p>
+<label><?php echo "Chennai"; ?></label><br>
+<label><?php echo "Bengaluru"; ?></label><br>
+<label><?php echo "Kodaikanal"; ?></label><br>
+<label><?php echo "Hyderabad"; ?></label><br>
+<label><?php echo "Trichy"; ?></label><br>
+<label><?php echo "Madurai"; ?> </label><br>
+<label><?php echo "Coimbatore"; ?></label><br>
+<label><?php echo "Kanyakumari"; ?></label><br>
+<label><?php echo "Bhubaneshwar"; ?></label><br>
 <br>
 <div>
 
 <form action="search.php" method="GET">
-<p>From Station: </p><input type="text" name="query"><br>
-<p>To Station: </p><input type="text" name="query2" ><br>
-<p>Date:</p><input type="text" name="query3" /><br><br>
+<h3>From Station: </h3><input type="text" name="query"><br>
+<h3>To Station: </h3><input type="text" name="query2" ><br>
+<h3>Date:</h3><input type="text" name="query3" /><br><br>
 <input class="btn btn-primary" type="submit" value="Search">
 </form>
    </div>

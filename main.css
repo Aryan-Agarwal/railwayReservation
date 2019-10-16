@@ -1,15 +1,43 @@
 body{
     background-color: #122442;
-    background-image: url(main.jpg);
+    background-image: url(main1.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-position: center;
 }
 
 .train p {
-    color: darkorchid;
+    color: black;
 }
 
 .train h2{
     color: gray;
+}        
+
+#home{
+	background: url(main1.jpg);
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
+
+#home h1{
+	text-align: center;
+	padding-top: 10%;
+	color: white;
+	word-spacing: 30px;
+	line-height: 2;
+	font-size: 3em;
+	text-transform: uppercase;
+
+}
+
+.back{
+	background-color: #182c39;
+}
+
+.cool{
+	padding-top: 20em;
+}
+
