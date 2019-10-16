@@ -13,6 +13,7 @@
     <body>
         <div class="container jumbotron train">
                 <h2>Special Offers</h2>
+                <hr>
 <img src="a.jpg" class="img-responsive">
 </div>
      <?php

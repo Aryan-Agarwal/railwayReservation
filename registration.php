@@ -13,8 +13,9 @@
         ?>
         <br><br>
         <div class="container jumbotron train">
+               <h2> Sign up </h2> 
+               <hr>
             <form autocomplete="on" action="register.php">
-                <h2> Sign up </h2> 
                     <br>
                     <label for="usernamesignup" class="uname" data-icon="u">Your username</label><br>
                     <input id="usernamesignup" name="usernamesignup" required="required" type="text" placeholder="mysuperusername690" />

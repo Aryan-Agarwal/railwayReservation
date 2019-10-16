@@ -1,7 +1,5 @@
 <html>
 <head>
-
-<?php
 <?php
 ## connect mysql server
 	$mysqli = new mysqli('localhost', 'root', '', 'simple-website');
@@ -37,11 +35,11 @@ echo "</script>";
 ;}
 	else if ($exists == 2){	echo "<script language=\"JavaScript\">\n";
 echo "alert('Username and email already exists!');\n";
-echo "window.location='log.html#toregister'";
+echo "window.location='index.php'";
 echo "</script>";
 }	else if ($exists == 3){	echo "<script language=\"JavaScript\">\n";
 echo "alert('Email Already Exists!');\n";
-echo "window.location='log.html#toregister'";
+echo "window.location='index.php'";
 echo "</script>";
 } 	else {
 		# insert data into mysql database
@@ -52,7 +50,7 @@ echo "</script>";
 			//echo "New Record has id ".$mysqli->insert_id;
 			echo "<script language=\"JavaScript\">\n";
 echo "alert('Registered Successfully');\n";
-echo "window.location='log.html'";
+echo "window.location='log.php'";
 echo "</script>";
 		} else {
 			echo "<p>MySQL error no {$mysqli->errno} : {$mysqli->error}</p>";

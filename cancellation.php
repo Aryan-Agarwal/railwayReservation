@@ -15,8 +15,9 @@
         <br><br>
 <div class="container">
     <div class="jumbotron train">
+       <h2><b>Ticket Cancellation</b></h2>
+       <hr>
         <form action="cancel.php" method="GET">
-<h2><b>Ticket Cancellation</b></h2>
 <label>PNR Number</label><br><input type="text" name="PNR"><br>
 <br>
 <input class="btn btn-danger" type="submit" value="Cancel" />

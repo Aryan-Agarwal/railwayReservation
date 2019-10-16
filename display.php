@@ -14,6 +14,7 @@
 <br><br>
 <div class="container jumbotron train">
 <h2>Print Your Ticket</h2>
+<hr>
 <form action="display2.php" method="GET">
 
 <label>Username</label><br><input type="text" name="username"><br><br>

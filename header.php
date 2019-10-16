@@ -43,6 +43,14 @@
         <a class="nav-link" href="reservations.php">Book</a>
       </li>
     </ul>
+    <ul class="nav navbar-right">
+       <li class="nav-item my-2 my-sim-0">
+           <a class="nav-link" href="log.php">Log In</a>
+       </li>
+       <li class="nav-item my-2 my-sim-0">
+           <a class="nav-link" href="registration.php">Sign Up</a>
+       </li>  
+    </ul>
   </div>
 </nav>
     </body>

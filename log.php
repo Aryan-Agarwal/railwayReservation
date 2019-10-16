@@ -14,8 +14,9 @@
         ?>
        <br><br>
         <div class="container jumbotron train">
+                              <h3>Log in</h3> 
+                                <hr>
                             <form autocomplete="on" action="login.php"> 
-                                <h3>Log in</h3> 
                                 <br>
                                     <label for="username" class="uname" data-icon="u" > Your email or username </label><br>
                                     <input id="username" name="username" required="required" type="text" placeholder="myusername or mymail@mail.com"/>

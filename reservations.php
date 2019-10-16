@@ -17,6 +17,7 @@
        <br><br>
         <div class="container jumbotron train">
                 <h2>Train Reservation</h2>
+                <hr>
                 <br>
 <div>
 <form action="reservation.php" method="GET">
